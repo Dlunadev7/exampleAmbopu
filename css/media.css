@@ -1,0 +1,170 @@
+@media screen and (min-width:768px) and (max-width:1023px){
+  .home__introduction_container__floating{
+    width:400px;
+  }
+
+  .home__title{
+    font-size:25px;
+  }
+
+  .blogger__content{
+    justify-content: space-around;
+  }
+
+  .footer__contact__links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px){
+  .header{
+    padding:14px 40px;
+  }
+  
+  .mobile_button_menu{
+    display:none;
+  }
+
+  .menu_desktop{
+    display:block;
+  }
+
+  .home__introduction_container{
+    background-attachment: fixed;
+  }
+
+  .home__introduction_container__floating{
+    width:350px;
+  }
+
+  .home__section_two{
+    flex-direction: row;
+  }
+
+  .imagotype_about{
+    width:300px;
+    margin:0 50px
+  }
+
+  .home__paragraph-1{
+    font-size:30px;
+  }
+
+  .blogger__content{
+    justify-content:space-around;
+  }
+
+  .footer__contact__links{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__company__information p{
+    text-align:right;
+    width:350px;
+  }
+
+  .footer__social__networks {
+    border-left:1.5px solid black;
+    padding:0 25px;
+    margin-left:15px;
+  }
+}
+
+
+@media screen and (min-width:1440px){
+  .header{
+    padding:14px 40px;
+  }
+  
+
+  .mobile_button_menu{
+    display:none;
+  }
+
+  .menu_desktop{
+    display:block;
+  }
+
+  .home__introduction_container{
+    background-attachment: fixed;
+  }
+
+  .home__introduction_container__floating{
+    width:450px;
+    height: 190px;
+  }
+
+  .home__title{
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 30px;
+  }
+
+  .home__section_two{
+    flex-direction: row;
+  }
+
+  .imagotype_about{
+    width:300px;
+    margin-right:50px;
+  }
+
+  .home__paragraph-1{
+    font-size:30px;
+  }
+
+  .blogger__content{
+    justify-content:space-evenly;
+  }
+
+  .home__blog__container__text {
+}
+
+  .blogger__item{
+    width:400px;
+  }
+
+  .imagotype_blog{
+    width:400px;
+    height:250px;
+  }
+
+  .footer__contact__links{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .footer__contact__links > .links__contact{
+    display:flex;
+    padding:15px;
+    margin-right:20px;
+    font-size:20px;
+    /* flex:.8; */
+    width:600px;
+  }
+
+  .links__contact ul{
+    margin-right:50px;
+  }
+
+
+  .footer__company__information p{
+    text-align:right;
+    width:350px;
+    flex:.5;
+}
+
+  .footer__social__networks {
+    border-left:1.5px solid black;
+    padding:0 25px;
+    margin-left:20px;
+  }
+}
