@@ -437,14 +437,12 @@ body {
 @font-face{
 	font-family: "bold";
 	src: url("../fonts/Poppins-Bold.ttf");
-	src:local(), url("../fonts/Poppins-Bold.otf") format("otf");
 	font-weight: normal;
 	font-style: normal;}
 
 @font-face{
 	font-family: "light";
 	src:url("../fonts/Poppins-Light.ttf");
-	src:local(), url("../fonts/Poppins-Light.otf") format("otf");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -452,7 +450,6 @@ body {
 @font-face{
 	font-family:"regular";
 	src: url("../fonts/Poppins-Regular.ttf");
-	src: local(), url("../fonts/Poppins-Regular.otf") format("otf");
 	font-weight: normal;
 	font-style: normal
 }
