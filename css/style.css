@@ -397,10 +397,11 @@ body {
     margin:0 10px;
 }
 
-.menu_desktop a:first-child{
+.menu_desktop a{
     position:relative;
 }
 
+.menu_desktop a::after,
 .menu_desktop a:first-child::after{
     content:"";
     width:0;
@@ -414,7 +415,7 @@ body {
 
 }
 
-.menu_desktop a:first-child:hover::after{
+.menu_desktop a:hover::after{
     width:50%;
 }
 
