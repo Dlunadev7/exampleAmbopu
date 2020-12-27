@@ -27,7 +27,7 @@
     display:none;
   }
 
-  .menu_desktop{
+  .header__container > .menu_desktop{
     display:block;
   }
 
@@ -86,7 +86,7 @@
     display:none;
   }
 
-  .menu_desktop{
+  .header__container > .menu_desktop{
     display:block;
   }
 
