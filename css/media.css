@@ -35,7 +35,7 @@
     background-attachment: fixed;
   }
 
-  .home__introduction_container__floating{
+  .home__introduction_container .home__introduction_container__floating{
     width:350px;
   }
 
@@ -94,9 +94,8 @@
     background-attachment: fixed;
   }
 
-  .home__introduction_container__floating{
-    width:450px;
-    height: 190px;
+  .home__introduction_container .home__introduction_container__floating{
+    width:350px;
   }
 
   .home__title{
