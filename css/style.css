@@ -415,6 +415,7 @@ body {
 
 }
 
+.menu_desktop a:first-child::after,
 .menu_desktop a:hover::after{
     width:50%;
 }
