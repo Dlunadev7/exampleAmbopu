@@ -22,7 +22,7 @@ body{
 /*            MAIN            */
 
 .home__introduction_container{
-    background-image: url("../assets/6dad24a5-d8b3-4d74-bdd4-c4d3a7a7e184.jpg");
+    background-image: url("../assets/hero_background.jpg");
     background-size: 100% auto;
     background-repeat: repeat;
     width:100%;
