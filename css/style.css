@@ -280,7 +280,7 @@
     margin:1px;
 }
 .footer__information{
-    border-top:1px solid black;
+    	border-top:1px solid black;
 	text-align: center;
 	display: flex;
 	justify-content: space-between;
@@ -290,7 +290,7 @@
 	margin: auto;
 }
 
-.footer__information a{
+.footer__information p a{
 	color: #FFF;
 }
 
