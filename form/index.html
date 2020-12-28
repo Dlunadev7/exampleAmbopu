@@ -1,156 +1,162 @@
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/media.css">
-    <link rel="stylesheet" href="../css/form.css">
-    <script src="../js/jquery.min.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <a href="/">
-                <img class="imagotype" src="../assets/logo ambopu.svg" alt="">
-            </a>
+  <header class="header">
+      <div class="header__container">
+          <a href="/">
+              <img class="header__imagotype" src="../assets/logo_ambopu.svg" alt="">
+          </a>
 
-            <button class="mobile_button_menu">
-                <div class="top_bar"></div>
-                <div class="mid_bar"></div>
-                <div class="both_bar"></div>
-            </button>
-            <nav class="menu_desktop">
-                <a class="regular" href="#">Consultoria</a>
-                <a class="regular" href="#">Soluciones</a>
-                <a class="regular" href="#">Servicios</a>
-                <a class="regular" href="#">Empresa</a>
-                <a class="regular" href="#">Contacto</a>
-            </nav>
-        </div>
-        
-        <div class="menu__mobile">
-            <nav>
-                <a class="regular" href="#">Consultoria</a>
-                <a class="regular" href="#">Soluciones</a>
-                <a class="regular" href="#">Servicios</a>
-                <a class="regular" href="#">Empresa</a>
-                <a class="regular" href="#">Contacto</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="home__introduction__help">
-            <h1 class="bold home__title__help">¿Cómo podemos ayudarlo?</h1>
-        </div>
-        <div class="home__form__container">
-            <form action="#" method="get">
-                <p>
-                    <label for="select" class="regular">Asunto</label>
-                    <select name="list_select" class="regular" id="select">
-                        <option value="Commercial">Comercial</option>
-                        <option value="Technical service">Servicio Tecnico</option>
-                        <option value="application">Aplicacion</option>
-                        <option value="Human Resources">Recursos humanos</option>
-                        <option value="Social responsability">Responsabilidad social</option>
-                        <option value="Press">Prensa</option>
-                        <option value="General inquiry">Consulta general</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="fullName" class="regular">Nombre Completo*</label>
-                    <input type="text" name="input_name" class="regular" id="fullName" required="obligatorio" placeholder="Nombre">
-                </p>
-                <p>
-                    <label for="company" class="regular">Empresa*</label>
-                    <input type="text" name="input_company" class="regular" id="company" required="obligatorio" placeholder="Compania">
-                </p>
-                <p>
-                <label for="direction" class="regular">Direccion*</label>
-                <input type="text" name="input_direction" class="regular" id="direction" required="obligatorio" placeholder="Direccion">
-                </p>
-                <p>
-                    <label for="city" class="regular">Ciudad*</label>
-                    <input type="text" name="input_city" class="regular" id="city" required="obligatorio" placeholder="Ciudad">
-                </p>
-                <p>
-                    <label for="country" class="regular">Pais*</label>
-                    <input type="text" name="input_country" class="regular" id="country" required="obligatorio" placeholder="Pais">
-                </p>
-                <p>
-                    <label for="message" class="regular">Su solicitud</label>
-                    <textarea name="input_message" class="regular message" id="message" required="obligatorio" placeholder="Solicitud..."></textarea>
-                </p>
-
-                <div class="communication">
-                    <p class="bold home__comunication__title">¿Como debemos comunicarnos con UD.?</p>
-                    <div class="communication__politics">
-                        <p>
-                            <label for="email" class="regular">E-mail</label>
-                            <input type="text" name="input_email" class="regular" id="email" required="obligatorio" placeholder="example@gmail.com">
-                        </p>
-                        <p>
-                            <label for="telephone"  class="regular">Telefono</label>
-                            <input type="text" name="input_telephone" class="regular" id="telephone" required="obligatorio" placeholder="+54-222-22222">
-                        </p>
-                    </div>
+          <button class="header__button_menu">
+              <div class="top_bar"></div>
+              <div class="mid_bar"></div>
+              <div class="both_bar"></div>
+          </button>
+          <nav class="header__menu_desktop">
+              <a class="regular" href="#">Consultoria</a>
+              <a class="regular" href="#">Soluciones</a>
+              <a class="regular" href="#">Servicios</a>
+              <a class="regular" href="#">Empresa</a>
+              <a class="regular" href="#">Contacto</a>
+          </nav>
+      </div>
+      
+      <div class="header__menu_mobile">
+          <nav>
+              <a class="regular" href="#">Consultoria</a>
+              <a class="regular" href="#">Soluciones</a>
+              <a class="regular" href="#">Servicios</a>
+              <a class="regular" href="#">Empresa</a>
+              <a class="regular" href="#">Contacto</a>
+          </nav>
+      </div>
+  </header>
+  <main>
+    <div class="home__introduction__help">
+        <h1 class="bold home__title__help">¿Cómo podemos ayudarlo?</h1>
+    </div>
+      <div class="home__form__container">
+        <form action="#" method="get">
+          <label for="select" class="regular">
+            <p>Asunto</p>
+            <select name="list_select" class="regular" id="select">
+              <option value="Commercial">Comercial</option>
+              <option value="Technical service">Servicio Tecnico</option>
+              <option value="application">Aplicacion</option>
+              <option value="Human Resources">Recursos humanos</option>
+              <option value="Social responsability">Responsabilidad social</option>
+              <option value="Press">Prensa</option>
+              <option value="General inquiry">Consulta general</option>
+            </select>
+          </label>
+            <label for="fullName" class="regular">
+              <p>Nombre Completo*</p>
+              <input type="text" name="input_name" class="regular" id="fullName" required="obligatorio" placeholder="Nombre">
+            </label>
+            <label for="company" class="regular">
+              <p>Empresa*</p>
+              <input type="text" name="input_company" class="regular" id="company" required="obligatorio" placeholder="Compania">
+            </label>
+            <label for="direction" class="regular">
+              <p>Direccion*</p>
+              <input type="text" name="input_direction" class="regular" id="direction" required="obligatorio" placeholder="Direccion">
+            </label>
+            <label for="city" class="regular">
+              <p>Ciudad*</p>
+              <input type="text" name="input_city" class="regular" id="city" required="obligatorio" placeholder="Ciudad">
+            </label>
+            <label for="country" class="regular">
+              <p>Pais*</p>
+              <input type="text" name="input_country" class="regular" id="country" required="obligatorio" placeholder="Pais">
+            </label>
+            <label for="message" class="regular">
+              <p>Su solicitud</p>
+              <textarea name="input_message" class="regular message" id="message" required="obligatorio" placeholder="Solicitud..."></textarea>
+            </label>
+              <div class="home__communication">
+                <p class="bold home__comunication__title">¿Como debemos comunicarnos con UD.?</p>
+                <div class="home__communication__container">
+                  <label for="email" class="regular">
+                    <p>E-mail</p>
+                    <input type="text" name="input_email" class="regular" id="email" required="obligatorio" placeholder="example@gmail.com">
+                  </label>
+                  <label for="telephone"  class="regular">
+                    <p>Telefono</p>
+                    <input type="text" name="input_telephone" class="regular" id="telephone" required="obligatorio" placeholder="+54-222-22222">
+                  </label>
                 </div>
-                <div class="home__politics__container">
-                    <p class="check">
-                        <input type="checkbox" class="checkbox" required="obligatorio"><label for="check" class="regular"> He leido y acepto la <span>Politica de privacidad</span></label>
-                    </p>                    
-                    <p class="check">
-                        <input type="checkbox" class="checkbox" required="obligatorio"><label for="check" class="regular"> No soy un robot CAPTCHA</label> 
-                    </p>
-                    <button type="submit" id="submit_form" class="regular">Enviar Solicitud</button>
-                </div>
-            </form>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="footer__contact__links">
-            <div class="links__contact">
-                <ul>
-                    <li><a class="regular" href="#">Consultoria</a></li>
-                    <li><a class="regular" href="#">Soluciones</a></li>
-                    <li><a class="regular" href="#">Productor</a></li>
-                </ul>
-                <ul>
-                    <li><a class="regular" href="#">Servicios</a></li>
-                    <li><a class="regular" href="#">Empresa</a></li>
-                    <li><a class="regular" href="#">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer__company__information">
-                <p class="bold">Contactenos</p>
-                <p class="regular">Av.del libertador 4538, Vicente Lopez +541130582259</p>
-            </div>
-            <ul class="footer__social__networks">
-                <p>Seguinos en</p>
-
-                <a href="#">
-                    <img src="../assets/AMBOPU_Icons_LinkedIn.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="../assets/AMBOPU_Icons_YouTube.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="../assets/AMBOPU_Icons_Instagram.svg" alt="">
-                </a>
-            </ul>
-        </div>
-        <div class="footer__information">
-            <p class="regular">Copyright ®2020 AMBOPU</p>
-        </div>
-    </footer>
-
-    <script>
-        const btnMenu = document.querySelector(".mobile_button_menu");
-        const navMenu = document.querySelector(".menu__mobile")
-        btnMenu.onclick = () =>{
-            btnMenu.classList.toggle("change")
-            navMenu.classList.toggle("menu__mobile--active")
-        }
-    </script>
+              </div>
+              <div class="home__politics__container">
+                <label for="check" class="regular check__content">
+                  <input type="checkbox" class="checkbox" required="obligatorio">
+                  <p> He leido y acepto la <span>Politica de privacidad</span></p>
+                </label>
+                <label for="check" class="regular check__content">
+                  <input type="checkbox" class="checkbox" required="obligatorio">
+                  <p> No soy un robot CAPTCHA</p>
+                </label> 
+                <button type="submit" id="submit_form" class="regular">Enviar Solicitud</button>
+              </div>
+          </form>
+      </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__contact__links">
+      <div class="links__contact">
+        <ul>
+          <li><a class="regular" href="#">Consultoria</a></li>
+          <li><a class="regular" href="#">Soluciones</a></li>
+          <li><a class="regular" href="#">Productor</a></li>
+        </ul>
+        <ul>
+          <li><a class="regular" href="#">Servicios</a></li>
+          <li><a class="regular" href="#">Empresa</a></li>
+          <li><a class="regular" href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__company__information">
+        <p class="bold">Contactenos</p>
+        <p class="regular">Av.del libertador 4538, Vicente Lopez +541130582259</p>
+      </div>
+      <ul class="footer__social__networks">
+        <p>Seguinos en</p>
+  
+        <a href="#">
+          <img src="../assets/AMBOPU_Icons_LinkedIn.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="../assets/AMBOPU_Icons_YouTube.svg" alt="">
+        </a>
+        <a href="#">
+          <img src="../assets/AMBOPU_Icons_Instagram.svg" alt="">
+        </a>
+      </ul>
+    </div>
+    <div class="footer__information">
+      <p class="regular">Copyright ®2020 AMBOPU</p>
+      <p class="regular">
+          Powered by
+          <a href="https://mauroluna.dev" target="_blank">
+              mauroluna.dev
+          </a>
+      </p>
+    </div>
+  </footer>
+  <script>
+      const btnMenu = document.querySelector(".header__button_menu");
+      const navMenu = document.querySelector(".header__menu_mobile")
+      btnMenu.onclick = () =>{
+          btnMenu.classList.toggle("change")
+          navMenu.classList.toggle("menu_mobile--active")
+      }
+  </script>
 </body>
 </html>
