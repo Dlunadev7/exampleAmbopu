@@ -1,39 +1,28 @@
 .home__introduction__help{
-    background-color: rgb(221,221,221);
+    padding:16px;
+    background-color: #d0d0d050;
     text-align: center;
 }
 
 .home__form__container{
-    max-width:700px;
     margin:auto;
-    padding:12px;
+    padding:16px;
 }
 
 .home__form__container form,
-.communication{
+.home__communication{
     display:flex;
     flex-flow: column;
     align-items: center;
-}
-
-.home__form__container form p,
-.communication p{
-    display:flex;
-    flex-direction: column;
-}
-
-.communication{
-    width:100%
 }
 
 label{
     margin:15px 0px;
 }
 
-
 input, select, textarea{
     background-color:white;
-    border:2px solid gray;
+    border:2px solid #d0d0d0;
     border-radius: 10px; 
     height:35px;
     width:270px;
@@ -45,33 +34,48 @@ input, select, textarea{
     transition:box-shadow .3s;
 }
 
-.home__form__container p .message{
+input:focus, select:focus, textarea:focus{
+    box-shadow:0px 0px 6px 1px #d2d2d2;
+}
+
+.home__form__container .message{
+    resize: none;
     height:150px;
 }
 
-.home__politics__container .check span{
+.home__comunication__title{
+    font-size:32px;
+    text-align: center;
+    margin:16px 0px;
+}
+
+.home__communication__container p{
+    margin-top:24px;
+}
+
+.home__politics__container{
+    display:flex;
+    flex-direction: column;
+    margin:24px 0;
+}
+
+.home__politics__container input:focus{
+    box-shadow: unset;
+}
+
+.home__politics__container .check__content{
+    display:flex;
+    align-items: center;
+}
+
+.home__politics__container .check__content input{
+    width:20px;
+    margin-right: 20px;
+}
+
+.home__politics__container  span{
     color:black;
     font-weight:bold;
-}
-
-input:focus, select:focus, textarea:focus{
-    box-shadow:0px 0px 4px 1px #d72f22;
-}
-
-.checkbox{
-    width:20px;
-}
-
-.home__comunication__title{
-    font-size:25px;
-    color:gray;
-    text-align:center;
-}
-
-
-.home__politics__container, .check{
-    text-align: center;
-    align-items: center;
 }
 
 .home__form__container button{
@@ -81,62 +85,97 @@ input:focus, select:focus, textarea:focus{
     font-size:20px;
     padding:12px;
     color: white;
+    margin: 16px 0px;
 }
+/*
+
+
+.home__politics__container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home__politics__container input:focus{
+    box-shadow:unset;
+}
+
+
+
+.check__content{
+    display:flex;
+}
+
+.checkbox{
+    width:20px;
+    margin-right:20px;
+    display:flex;
+}
+
+.home__comunication__title{
+    font-size:25px;
+    color:gray;
+    text-align:center;
+}
+
+
+
 
 
 select option{
     font-size:10px;
 }
-
+*/
 @media screen and (min-width:768px) and (max-width:1023px){
-    .home__introduction__help{
-        padding:10px;
-    }
-    
     input, select, textarea{
         width:500px;
     }
 
-    .home__form__container p .message{
+    .home__form__container .message{
         height:300px;
     }
 
-    .communication__politics{
+    .home__communication__container{
         display: flex;
         width: 100%;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    .communication__politics input{
+    .home__communication__container input{
         width:250px;
+    }
+
+    
+    .home__politics__container .check__content{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
     }
 
 }
 
 @media screen and (min-width:1024px) and (max-width:1439px){
-    .home__introduction__help{
-        padding:10px;
-    }
 
     .home__form__container form{
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
 
-    .home__form__container p .message{
-        width: 600px;
+    .home__form__container .message{
+        width: 900px;
         height:300px;
     }
 
-    .communication__politics{
+    .home__communication__container{
         display:flex;
         justify-content: space-evenly;
         flex-direction: row;
         width:100%;
     }
 
-    .home__politics__container .check{
+    .home__politics__container .check__content{
         display:flex;
         flex-direction:row;
         align-items: center;
@@ -146,10 +185,6 @@ select option{
 }
 
 @media screen and (min-width:1440px){
-    .home__introduction__help{
-        padding:10px;
-    }
-
     .home__form__container{
         max-width:1000px;
     }
@@ -158,19 +193,19 @@ select option{
         justify-content: space-evenly;
     }
 
-    .home__form__container p .message{
+    .home__form__container .message{
         width: 900px;
-        height:200px;
+        height:300px;
     }
 
-    .communication__politics{
+    .home__communication__container{
         display:flex;
         justify-content: space-evenly;
         flex-direction: row;
-        width:70%;
+        width:100%;
     }
 
-    .home__politics__container .check{
+    .home__politics__container .check__content{
         display:flex;
         flex-direction:row;
         align-items: center;
