@@ -2,7 +2,7 @@
 
 
 .home__section_two{
-    	padding: 16px;
+    padding: 16px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -54,6 +54,11 @@
 
 .home__process__title{
     font-size:36px;
+    text-align: center;
+}
+
+.card__text__title{
+    font-size:24px;
     text-align:center;
 }
 
@@ -172,7 +177,7 @@
     height:50px;
     background-color: orange;
     position:absolute;
-    top:-25;
+    top:-25px;
     border-radius: 100%;
 }
 
@@ -261,7 +266,7 @@
     justify-content: space-between;
     align-items: baseline;
     max-width:1300px;
-    padding:16px;
+    padding:12px;
     margin:auto;
 }
 
@@ -273,7 +278,8 @@
 
 .footer__company__information{
     text-align:center;
-    padding:16px;
+    padding:24px;
+    order:3;
 }
 
 .links__contact ul{
@@ -289,8 +295,9 @@
 
 .footer__social__networks {
     text-align:center;
-    padding:0;
     align-self: center;
+    padding:0;
+    margin:24px 0;
 }
 
 .footer__social__networks p{
