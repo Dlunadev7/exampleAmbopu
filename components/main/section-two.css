@@ -1,0 +1,42 @@
+.home__section_two{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.imagotype_about{
+  width:200px;
+}
+
+.about__title{
+  font-size:36px;
+  font-weight:bolder;
+}
+
+.home__paragraph-2 span{
+  font-size:18px;
+  color:gray;
+  font-weight:bold;
+}
+
+.home__paragraph-2{
+  color:gray;
+  font-size:18px;
+}
+
+@media screen and (min-width:1024px){
+  
+.home__section_two{
+  flex-direction: row;
+}
+
+.imagotype_about{
+  width:300px;
+  margin-right:50px;
+}
+
+}

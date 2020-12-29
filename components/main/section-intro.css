@@ -1,0 +1,65 @@
+
+.home__introduction{
+	background-image: url("/assets/hero_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.home__introduction__container{
+	width:1336px;
+	margin:auto;
+}
+
+.home__introduction__container__floating{
+	width:300px;
+	height:auto;
+	padding: 13px;
+	background-color: #000;
+	display:flex;
+	flex-direction:column;
+	color:white;
+}
+
+.home__title{
+	font-size:20px;
+	text-transform: uppercase;
+	border-left: 10px solid #d72f22;
+	margin-left: 25px;
+	margin-bottom:20px;
+	padding:0 15px;
+}
+
+.home__link-1{
+	color:white;
+	text-decoration:none;
+	align-self:flex-end;
+	font-size:14px;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	.home__introduction__container
+		.home__introduction__container__floating{
+		width:350px;
+	}
+
+	.home__title{
+		font-size:25px;
+	}
+}
+
+@media screen and (min-width:1024px){
+  .home__introduction__container
+		.home__introduction__container__floating{
+		width:400px;
+	}
+
+	.home__title{
+		font-size: 30px;
+		padding-left: 20px;
+		margin-left: 30px;
+	}    
+}

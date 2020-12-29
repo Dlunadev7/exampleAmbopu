@@ -1,0 +1,217 @@
+.home__introduction__help{
+  padding:16px;
+  background-color: #d0d0d050;
+  text-align: center;
+  }
+
+.home__form__container{
+  margin:auto;
+  padding:16px;
+  }
+
+.home__form__container form,
+.home__communication{
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  }
+
+label{
+  margin:15px 0px;
+  display:flex;
+  flex-direction: column;
+  }
+
+input, select, textarea{
+  background-color:white;
+  border:2px solid #d0d0d0;
+  border-radius: 10px; 
+  height:35px;
+  width:270px;
+  padding:5px;
+  padding-left: 15px;
+  font-size:17px;
+  letter-spacing: 1px;
+  outline: unset;
+  transition:box-shadow .3s;
+  }
+
+input:focus, select:focus, textarea:focus{
+  box-shadow:0px 0px 6px 1px #d2d2d2;
+  }
+
+.home__form__container .message{
+  resize: none;
+  height:150px;
+  }
+
+.home__comunication__title{
+  font-size:32px;
+  text-align: center;
+  margin:16px 0px;
+  }
+
+.home__communication__container p{
+  margin-top:24px;
+  }
+
+.home__politics__container{
+  display:flex;
+  flex-direction: column;
+  margin:24px 0;
+  }
+
+.home__politics__container input:focus{
+  box-shadow: unset;
+  }
+
+.home__politics__container .check__content{
+  display:flex;
+  align-items: center;
+  }
+
+.home__politics__container .check__content input{
+  width:20px;
+  margin-right: 20px;
+  }
+
+.home__politics__container  span{
+  color:black;
+  font-weight:bold;
+  }
+
+.home__form__container button{
+  background: #d72f22;
+  border:unset;
+  border-radius: 20px;
+  font-size:20px;
+  padding:12px;
+  color: white;
+  margin: 16px 0px;
+  }
+/*
+
+
+.home__politics__container{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.home__politics__container input:focus{
+box-shadow:unset;
+}
+
+
+
+.check__content{
+display:flex;
+}
+
+.checkbox{
+width:20px;
+margin-right:20px;
+display:flex;
+}
+
+.home__comunication__title{
+font-size:25px;
+color:gray;
+text-align:center;
+}
+
+
+
+
+
+select option{
+font-size:10px;
+}
+*/
+@media screen and (min-width:768px) and (max-width:1023px){
+input, select, textarea{
+  width:500px;
+}
+
+.home__form__container .message{
+  height:300px;
+}
+
+.home__communication__container{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home__communication__container input{
+  width:250px;
+}
+
+
+.home__politics__container .check__content{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px){
+
+.home__form__container form{
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.home__form__container .message{
+  width: 900px;
+  height:300px;
+}
+
+.home__communication__container{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width:100%;
+}
+
+.home__politics__container .check__content{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
+@media screen and (min-width:1440px){
+.home__form__container{
+  max-width:1000px;
+}
+.home__form__container form{
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.home__form__container .message{
+  width: 900px;
+  height:300px;
+}
+
+.home__communication__container{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width:100%;
+}
+
+.home__politics__container .check__content{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+}
