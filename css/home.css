@@ -37,11 +37,12 @@
 }
 
 .home__introduction__container{
-    max-width:1336px;
+    width:1336px;
+    margin:auto;
 }
 
 .home__introduction__container__floating{
-    width:320px;
+    width:300px;
     height:auto;
     padding: 13px;
     background-color: #000;
@@ -53,7 +54,7 @@
 .home__title{
     font-size:20px;
     text-transform: uppercase;
-    border-left: 10px solid red;
+    border-left: 10px solid #d72f22;
     margin-left: 25px;
     margin-bottom:20px;
     padding:0 15px;
@@ -146,7 +147,7 @@
     content:"";
     width:0;
     height:5px;
-    background-color:red;
+    background-color:#d72f22;
     border-radius: 8px;
     position:absolute;
     top:30px;
